@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="1440" height="900" fill="#f9fafb"/>
+  <rect width="256" height="900" fill="#111827"/>
+  <rect x="24" y="24" width="28" height="28" rx="7" fill="#3b82f6"/>
+  <text x="62" y="43" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#ffffff">SupportAI</text>
+  <text x="44" y="114" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Dashboard</text>
+  <text x="44" y="154" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Analytics</text>
+  <rect x="12" y="168" width="232" height="38" rx="8" fill="#2563eb"/>
+  <text x="44" y="192" font-family="system-ui,sans-serif" font-size="14" font-weight="500" fill="#ffffff">Tickets</text>
+  <text x="44" y="236" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Knowledge Base</text>
+
+  <!-- Back + header -->
+  <text x="284" y="54" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">← All tickets</text>
+  <text x="284" y="92" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#111827">API rate limit exceeded in production</text>
+
+  <!-- Badges -->
+  <rect x="284" y="104" width="84" height="22" rx="11" fill="#eff6ff"/>
+  <text x="326" y="119" font-family="system-ui,sans-serif" font-size="11" fill="#2563eb" text-anchor="middle">Technical</text>
+  <rect x="378" y="104" width="80" height="22" rx="11" fill="#fef3c7"/>
+  <text x="418" y="119" font-family="system-ui,sans-serif" font-size="11" fill="#d97706" text-anchor="middle">In Progress</text>
+  <rect x="468" y="104" width="62" height="22" rx="11" fill="#fee2e2"/>
+  <text x="499" y="119" font-family="system-ui,sans-serif" font-size="11" fill="#dc2626" text-anchor="middle">Urgent</text>
+
+  <!-- Message thread (left panel) -->
+  <rect x="284" y="140" width="740" height="740" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="306" y="170" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Conversation</text>
+  <rect x="284" y="178" width="740" height="1" fill="#f3f4f6"/>
+
+  <!-- Customer message -->
+  <rect x="306" y="196" width="696" height="108" rx="12" fill="#f9fafb"/>
+  <circle cx="322" cy="212" r="12" fill="#2563eb"/>
+  <text x="322" y="217" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">G</text>
+  <text x="342" y="212" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#111827">Grace Kim</text>
+  <text x="920" y="212" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">2 hours ago</text>
+  <text x="322" y="234" font-family="system-ui,sans-serif" font-size="13" fill="#374151">Our integration has been getting sporadic 500 errors from the /v1/data endpoint</text>
+  <text x="322" y="252" font-family="system-ui,sans-serif" font-size="13" fill="#374151">for the past 3 days. Roughly 1 in 50 requests fails. This is impacting our</text>
+  <text x="322" y="270" font-family="system-ui,sans-serif" font-size="13" fill="#374151">production environment. Request ID: req_a9f83b2c</text>
+  <text x="982" y="296" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af" text-anchor="end">via web</text>
+
+  <!-- AI message -->
+  <rect x="306" y="316" width="696" height="90" rx="12" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+  <rect x="322" y="330" width="24" height="24" rx="6" fill="#0284c7"/>
+  <text x="334" y="346" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">AI</text>
+  <text x="354" y="344" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#0284c7">SupportAI Assistant</text>
+  <text x="900" y="344" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">2h ago</text>
+  <text x="322" y="368" font-family="system-ui,sans-serif" font-size="13" fill="#0c4a6e">Hi! I've reviewed your ticket. I can see this is a critical production issue.</text>
+  <text x="322" y="386" font-family="system-ui,sans-serif" font-size="13" fill="#0c4a6e">Let me check our server logs and I'll have an engineer follow up immediately.</text>
+
+  <!-- Agent message -->
+  <rect x="306" y="422" width="696" height="90" rx="12" fill="#f9fafb"/>
+  <circle cx="322" cy="438" r="12" fill="#10b981"/>
+  <text x="322" y="443" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">S</text>
+  <text x="342" y="438" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#111827">Sarah Chen</text>
+  <text x="480" y="438" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Agent</text>
+  <text x="920" y="438" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">1h ago</text>
+  <text x="322" y="460" font-family="system-ui,sans-serif" font-size="13" fill="#374151">Hi! I've reproduced this on our end and escalating to our engineering team right</text>
+  <text x="322" y="478" font-family="system-ui,sans-serif" font-size="13" fill="#374151">now. Can you also share your account ID and exact timestamps of failures?</text>
+  <text x="982" y="504" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af" text-anchor="end">via agent console</text>
+
+  <!-- AI Chat input -->
+  <rect x="284" y="820" width="740" height="60" rx="14" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="306" y="836" width="640" height="32" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="322" y="857" font-family="system-ui,sans-serif" font-size="13" fill="#9ca3af">Ask the AI assistant…</text>
+  <rect x="934" y="836" width="70" height="32" rx="8" fill="#2563eb"/>
+  <text x="969" y="857" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">Send</text>
+
+  <!-- Right panel -->
+  <!-- Ticket info -->
+  <rect x="1040" y="140" width="376" height="220" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="1062" y="172" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Ticket Details</text>
+  <rect x="1040" y="180" width="376" height="1" fill="#f3f4f6"/>
+  <text x="1062" y="204" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">Submitted by</text>
+  <text x="1062" y="222" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">Grace Kim</text>
+  <text x="1062" y="248" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">Assigned to</text>
+  <text x="1062" y="266" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">Sarah Chen</text>
+  <text x="1062" y="292" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">Created</text>
+  <text x="1062" y="310" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">April 4, 2026 at 2:14 PM</text>
+  <text x="1062" y="336" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">Status</text>
+  <rect x="1062" y="344" width="100" height="24" rx="12" fill="#fef3c7"/>
+  <text x="1112" y="360" font-family="system-ui,sans-serif" font-size="12" fill="#d97706" text-anchor="middle">In Progress</text>
+
+  <!-- KB Suggestions panel -->
+  <rect x="1040" y="376" width="376" height="220" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="1062" y="408" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#111827">📚 KB Suggestions</text>
+  <rect x="1040" y="416" width="376" height="1" fill="#f3f4f6"/>
+  <!-- KB article 1 -->
+  <rect x="1062" y="430" width="332" height="50" rx="8" fill="#f9fafb"/>
+  <rect x="1074" y="438" width="8" height="8" rx="2" fill="#2563eb"/>
+  <text x="1090" y="448" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">API rate limits and how to handle them</text>
+  <text x="1090" y="464" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">High relevance · 23,410 views</text>
+  <!-- KB article 2 -->
+  <rect x="1062" y="488" width="332" height="50" rx="8" fill="#f9fafb"/>
+  <rect x="1074" y="496" width="8" height="8" rx="2" fill="#2563eb"/>
+  <text x="1090" y="506" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">Troubleshooting connection errors</text>
+  <text x="1090" y="522" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Medium relevance · 16,540 views</text>
+  <!-- KB article 3 -->
+  <rect x="1062" y="546" width="332" height="50" rx="8" fill="#f9fafb"/>
+  <rect x="1074" y="554" width="8" height="8" rx="2" fill="#3b82f6" opacity="0.5"/>
+  <text x="1090" y="564" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">Setting up webhook integrations</text>
+  <text x="1090" y="580" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Low relevance · 9,870 views</text>
+
+  <!-- Sentiment panel -->
+  <rect x="1040" y="612" width="376" height="130" rx="14" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="1062" y="642" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#15803d">😊 Sentiment Analysis</text>
+  <text x="1062" y="666" font-family="system-ui,sans-serif" font-size="13" fill="#166534">Sentiment: Neutral (score: 0.61)</text>
+  <text x="1062" y="686" font-family="system-ui,sans-serif" font-size="13" fill="#166534">Escalation: Not required</text>
+  <text x="1062" y="706" font-family="system-ui,sans-serif" font-size="13" fill="#166534">Emotions: concerned, professional</text>
+  <!-- Score bar -->
+  <rect x="1062" y="718" width="332" height="8" rx="4" fill="#dcfce7"/>
+  <rect x="1062" y="718" width="202" height="8" rx="4" fill="#22c55e"/>
+</svg>

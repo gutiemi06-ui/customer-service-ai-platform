@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="1440" height="900" fill="#f9fafb"/>
+  <!-- Sidebar -->
+  <rect width="256" height="900" fill="#111827"/>
+  <rect x="24" y="24" width="28" height="28" rx="7" fill="#3b82f6"/>
+  <text x="62" y="43" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#ffffff">SupportAI</text>
+  <!-- Nav items -->
+  <rect x="12" y="90" width="232" height="38" rx="8" fill="#2563eb"/>
+  <text x="44" y="114" font-family="system-ui,sans-serif" font-size="14" font-weight="500" fill="#ffffff">Dashboard</text>
+  <text x="44" y="156" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Analytics</text>
+  <text x="44" y="196" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Tickets</text>
+  <text x="44" y="236" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Knowledge Base</text>
+  <!-- User at bottom -->
+  <rect x="0" y="840" width="256" height="60" fill="#111827"/>
+  <rect x="16" y="848" width="1" height="1" fill="#1f2937"/>
+  <circle cx="36" cy="866" r="16" fill="#2563eb"/>
+  <text x="36" y="871" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="62" y="862" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#ffffff">Alex Admin</text>
+  <text x="62" y="878" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">admin</text>
+
+  <!-- Main content -->
+  <text x="284" y="72" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#111827">Dashboard</text>
+  <text x="284" y="94" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Overview of support operations · Sunday, April 5, 2026</text>
+
+  <!-- Stat cards row -->
+  <rect x="284" y="114" width="268" height="100" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <rect x="292" y="122" width="32" height="32" rx="9" fill="#eff6ff"/>
+  <text x="292" y="188" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#111827">1,284</text>
+  <text x="292" y="206" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Total Tickets</text>
+
+  <rect x="564" y="114" width="268" height="100" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <rect x="572" y="122" width="32" height="32" rx="9" fill="#fefce8"/>
+  <text x="572" y="188" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#111827">47</text>
+  <text x="572" y="206" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Open Tickets</text>
+
+  <rect x="844" y="114" width="268" height="100" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <rect x="852" y="122" width="32" height="32" rx="9" fill="#f0fdf4"/>
+  <text x="852" y="188" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#111827">87%</text>
+  <text x="852" y="206" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Resolution Rate</text>
+
+  <rect x="1124" y="114" width="292" height="100" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <rect x="1132" y="122" width="32" height="32" rx="9" fill="#faf5ff"/>
+  <text x="1132" y="188" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#111827">4.3/5</text>
+  <text x="1132" y="206" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Avg CSAT</text>
+
+  <!-- Performance row -->
+  <rect x="284" y="232" width="360" height="88" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="300" y="262" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#2563eb">&lt; 2 min</text>
+  <text x="300" y="282" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#374151">Avg First Response</text>
+  <text x="300" y="298" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">60% faster than industry avg</text>
+
+  <rect x="656" y="232" width="360" height="88" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="672" y="262" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#10b981">2.3 hrs</text>
+  <text x="672" y="282" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#374151">Avg Resolution Time</text>
+  <text x="672" y="298" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Across resolved tickets</text>
+
+  <rect x="1028" y="232" width="388" height="88" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="1044" y="262" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#8b5cf6">~40%</text>
+  <text x="1044" y="282" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#374151">AI Auto-Resolved</text>
+  <text x="1044" y="298" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Handled without agent</text>
+
+  <!-- Recent tickets table -->
+  <rect x="284" y="340" width="838" height="520" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="306" y="372" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Recent Tickets</text>
+  <text x="1060" y="372" font-family="system-ui,sans-serif" font-size="13" fill="#2563eb">View all</text>
+  <rect x="284" y="380" width="838" height="1" fill="#f3f4f6"/>
+  <!-- Table header -->
+  <rect x="284" y="381" width="838" height="36" fill="#f9fafb"/>
+  <text x="306" y="404" font-family="system-ui,sans-serif" font-size="11" font-weight="500" fill="#6b7280" letter-spacing="0.5">TICKET</text>
+  <text x="680" y="404" font-family="system-ui,sans-serif" font-size="11" font-weight="500" fill="#6b7280" letter-spacing="0.5">STATUS</text>
+  <text x="800" y="404" font-family="system-ui,sans-serif" font-size="11" font-weight="500" fill="#6b7280" letter-spacing="0.5">PRIORITY</text>
+  <!-- Rows -->
+  <rect x="284" y="417" width="838" height="1" fill="#f9fafb"/>
+  <text x="306" y="443" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">API rate limit exceeded in production</text>
+  <text x="306" y="459" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Grace Kim · 4/4/2026</text>
+  <rect x="660" y="432" width="80" height="20" rx="10" fill="#fef3c7"/>
+  <text x="700" y="446" font-family="system-ui,sans-serif" font-size="11" fill="#d97706" text-anchor="middle">In Progress</text>
+  <rect x="780" y="432" width="70" height="20" rx="10" fill="#fee2e2"/>
+  <text x="815" y="446" font-family="system-ui,sans-serif" font-size="11" fill="#dc2626" text-anchor="middle">Urgent</text>
+
+  <rect x="284" y="465" width="838" height="1" fill="#f9fafb"/>
+  <text x="306" y="491" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">Subscription renewal failed - card declined</text>
+  <text x="306" y="507" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Alice Johnson · 4/3/2026</text>
+  <rect x="660" y="480" width="68" height="20" rx="10" fill="#dcfce7"/>
+  <text x="694" y="494" font-family="system-ui,sans-serif" font-size="11" fill="#16a34a" text-anchor="middle">Resolved</text>
+  <rect x="780" y="480" width="60" height="20" rx="10" fill="#fff7ed"/>
+  <text x="810" y="494" font-family="system-ui,sans-serif" font-size="11" fill="#ea580c" text-anchor="middle">High</text>
+
+  <rect x="284" y="513" width="838" height="1" fill="#f9fafb"/>
+  <text x="306" y="539" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">SSO integration not working with Okta</text>
+  <text x="306" y="555" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Bob Smith · 4/3/2026</text>
+  <rect x="660" y="528" width="80" height="20" rx="10" fill="#fef3c7"/>
+  <text x="700" y="542" font-family="system-ui,sans-serif" font-size="11" fill="#d97706" text-anchor="middle">In Progress</text>
+  <rect x="780" y="528" width="60" height="20" rx="10" fill="#fff7ed"/>
+  <text x="810" y="542" font-family="system-ui,sans-serif" font-size="11" fill="#ea580c" text-anchor="middle">High</text>
+
+  <rect x="284" y="561" width="838" height="1" fill="#f9fafb"/>
+  <text x="306" y="587" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">Cannot login after password change</text>
+  <text x="306" y="603" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Emma Wilson · 4/2/2026</text>
+  <rect x="660" y="576" width="52" height="20" rx="10" fill="#eff6ff"/>
+  <text x="686" y="590" font-family="system-ui,sans-serif" font-size="11" fill="#2563eb" text-anchor="middle">Open</text>
+  <rect x="780" y="576" width="70" height="20" rx="10" fill="#fee2e2"/>
+  <text x="815" y="590" font-family="system-ui,sans-serif" font-size="11" fill="#dc2626" text-anchor="middle">Urgent</text>
+
+  <!-- Urgent panel -->
+  <rect x="1140" y="340" width="276" height="220" rx="14" fill="#ffffff" stroke="#fee2e2" stroke-width="1"/>
+  <circle cx="1158" cy="368" r="5" fill="#ef4444"/>
+  <text x="1170" y="372" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#111827">Urgent — Needs Attention</text>
+  <rect x="1140" y="380" width="276" height="1" fill="#fee2e2"/>
+  <text x="1156" y="404" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">API rate limit exceeded</text>
+  <text x="1156" y="420" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Grace Kim</text>
+  <rect x="1140" y="430" width="276" height="1" fill="#f9fafb"/>
+  <text x="1156" y="454" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">Cannot login after password change</text>
+  <text x="1156" y="470" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Emma Wilson</text>
+  <rect x="1140" y="480" width="276" height="1" fill="#f9fafb"/>
+  <text x="1156" y="504" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#111827">OAuth token refresh failing</text>
+  <text x="1156" y="520" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Henry Brown</text>
+
+  <!-- Quick actions panel -->
+  <rect x="1140" y="576" width="276" height="180" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="1156" y="604" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#111827">Quick Actions</text>
+  <rect x="1156" y="618" width="32" height="32" rx="8" fill="#fef3c7"/>
+  <text x="1172" y="639" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#d97706" text-anchor="middle">47</text>
+  <text x="1198" y="639" font-family="system-ui,sans-serif" font-size="13" fill="#374151">View open tickets</text>
+  <rect x="1156" y="660" width="32" height="32" rx="8" fill="#fee2e2"/>
+  <text x="1172" y="681" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#dc2626" text-anchor="middle">8</text>
+  <text x="1198" y="681" font-family="system-ui,sans-serif" font-size="13" fill="#374151">View urgent tickets</text>
+  <rect x="1156" y="702" width="32" height="32" rx="8" fill="#eff6ff"/>
+  <text x="1198" y="723" font-family="system-ui,sans-serif" font-size="13" fill="#374151">Knowledge base</text>
+</svg>

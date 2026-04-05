@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="1440" height="900" fill="#f9fafb"/>
+  <!-- Sidebar -->
+  <rect width="256" height="900" fill="#111827"/>
+  <rect x="24" y="24" width="28" height="28" rx="7" fill="#3b82f6"/>
+  <text x="62" y="43" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#ffffff">SupportAI</text>
+  <text x="44" y="114" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Dashboard</text>
+  <rect x="12" y="128" width="232" height="38" rx="8" fill="#2563eb"/>
+  <text x="44" y="152" font-family="system-ui,sans-serif" font-size="14" font-weight="500" fill="#ffffff">Analytics</text>
+  <text x="44" y="196" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Tickets</text>
+  <text x="44" y="236" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Knowledge Base</text>
+
+  <!-- Header -->
+  <text x="284" y="60" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#111827">Analytics</text>
+  <text x="284" y="82" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Last 30 days performance overview</text>
+
+  <!-- Metric cards -->
+  <rect x="284" y="100" width="268" height="96" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="300" y="130" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Total Tickets</text>
+  <text x="300" y="162" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#111827">120</text>
+  <text x="300" y="186" font-family="system-ui,sans-serif" font-size="12" fill="#10b981">↑ 400% vs last 30 days</text>
+
+  <rect x="564" y="100" width="268" height="96" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="580" y="130" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Avg Response Time</text>
+  <text x="580" y="162" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#111827">2.3h</text>
+  <text x="580" y="186" font-family="system-ui,sans-serif" font-size="12" fill="#10b981">↓ 11% vs last 30 days</text>
+
+  <rect x="844" y="100" width="268" height="96" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="860" y="130" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Resolution Rate</text>
+  <text x="860" y="162" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#111827">87%</text>
+  <text x="860" y="186" font-family="system-ui,sans-serif" font-size="12" fill="#10b981">↑ 100% vs last 30 days</text>
+
+  <rect x="1124" y="100" width="292" height="96" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="1140" y="130" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Customer Satisfaction</text>
+  <text x="1140" y="162" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#111827">4.2/5</text>
+  <!-- Stars -->
+  <text x="1140" y="186" font-family="system-ui,sans-serif" font-size="16" fill="#f59e0b">★★★★</text>
+  <text x="1204" y="186" font-family="system-ui,sans-serif" font-size="16" fill="#e5e7eb">★</text>
+
+  <!-- Line chart -->
+  <rect x="284" y="216" width="760" height="280" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="306" y="246" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Ticket Volume (Last 30 Days)</text>
+  <!-- Chart axes -->
+  <line x1="340" y1="460" x2="1020" y2="460" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="340" y1="430" x2="1020" y2="430" stroke="#f3f4f6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="340" y1="400" x2="1020" y2="400" stroke="#f3f4f6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="340" y1="370" x2="1020" y2="370" stroke="#f3f4f6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="340" y1="340" x2="1020" y2="340" stroke="#f3f4f6" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="340" y1="310" x2="1020" y2="310" stroke="#f3f4f6" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- Line chart path -->
+  <polyline points="340,440 380,430 420,420 460,415 500,400 540,395 580,370 620,360 660,380 700,340 740,320 780,330 820,310 860,340 900,360 940,380 980,370 1020,350"
+    fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Area fill -->
+  <polygon points="340,440 380,430 420,420 460,415 500,400 540,395 580,370 620,360 660,380 700,340 740,320 780,330 820,310 860,340 900,360 940,380 980,370 1020,350 1020,460 340,460"
+    fill="#3b82f6" opacity="0.08"/>
+  <!-- X axis labels -->
+  <text x="340" y="476" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af">Mar 6</text>
+  <text x="500" y="476" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af">Mar 14</text>
+  <text x="660" y="476" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af">Mar 22</text>
+  <text x="820" y="476" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af">Mar 30</text>
+  <text x="980" y="476" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af">Apr 5</text>
+  <!-- Y axis labels -->
+  <text x="310" y="464" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af" text-anchor="end">0</text>
+  <text x="310" y="404" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af" text-anchor="end">5</text>
+  <text x="310" y="344" font-family="system-ui,sans-serif" font-size="10" fill="#9ca3af" text-anchor="end">10</text>
+
+  <!-- Pie chart -->
+  <rect x="1056" y="216" width="360" height="280" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="1078" y="246" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Category Distribution</text>
+  <!-- Pie slices -->
+  <circle cx="1186" cy="370" r="80" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+  <!-- Technical 42% - blue -->
+  <path d="M 1186 370 L 1186 290 A 80 80 0 0 1 1249 406 Z" fill="#3b82f6"/>
+  <!-- Billing 33% - green -->
+  <path d="M 1186 370 L 1249 406 A 80 80 0 0 1 1126 418 Z" fill="#10b981"/>
+  <!-- General 17% - amber -->
+  <path d="M 1186 370 L 1126 418 A 80 80 0 0 1 1155 303 Z" fill="#f59e0b"/>
+  <!-- Account 8% - purple -->
+  <path d="M 1186 370 L 1155 303 A 80 80 0 0 1 1186 290 Z" fill="#8b5cf6"/>
+  <!-- Legend -->
+  <rect x="1290" y="330" width="10" height="10" rx="2" fill="#3b82f6"/>
+  <text x="1306" y="340" font-family="system-ui,sans-serif" font-size="12" fill="#374151">Technical (42%)</text>
+  <rect x="1290" y="350" width="10" height="10" rx="2" fill="#10b981"/>
+  <text x="1306" y="360" font-family="system-ui,sans-serif" font-size="12" fill="#374151">Billing (33%)</text>
+  <rect x="1290" y="370" width="10" height="10" rx="2" fill="#f59e0b"/>
+  <text x="1306" y="380" font-family="system-ui,sans-serif" font-size="12" fill="#374151">General (17%)</text>
+  <rect x="1290" y="390" width="10" height="10" rx="2" fill="#8b5cf6"/>
+  <text x="1306" y="400" font-family="system-ui,sans-serif" font-size="12" fill="#374151">Account (8%)</text>
+
+  <!-- Agent bar chart -->
+  <rect x="284" y="516" width="570" height="220" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="306" y="546" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Agent Performance</text>
+  <!-- Bars -->
+  <rect x="340" y="650" width="80" height="80" rx="4" fill="#f59e0b"/>
+  <text x="380" y="645" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Sarah Chen</text>
+  <text x="380" y="742" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">42 resolved</text>
+  <rect x="500" y="670" width="80" height="60" rx="4" fill="#f59e0b"/>
+  <text x="540" y="665" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Marcus Williams</text>
+  <text x="540" y="742" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">35 resolved</text>
+  <rect x="660" y="690" width="80" height="40" rx="4" fill="#10b981"/>
+  <text x="700" y="685" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Priya Patel</text>
+  <text x="700" y="742" font-family="system-ui,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">28 resolved</text>
+  <line x1="320" y1="730" x2="820" y2="730" stroke="#f3f4f6" stroke-width="1"/>
+
+  <!-- Recent activity table -->
+  <rect x="866" y="516" width="550" height="220" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="888" y="546" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Recent Activity</text>
+  <rect x="866" y="554" width="550" height="1" fill="#f3f4f6"/>
+  <!-- rows -->
+  <text x="888" y="578" font-family="system-ui,sans-serif" font-size="12" font-weight="500" fill="#111827">API rate limit exceeded</text>
+  <rect x="1300" y="566" width="80" height="20" rx="10" fill="#fee2e2"/>
+  <text x="1340" y="580" font-family="system-ui,sans-serif" font-size="11" fill="#dc2626" text-anchor="middle">Urgent</text>
+  <text x="888" y="594" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Grace Kim · 2h ago</text>
+  <rect x="866" y="602" width="550" height="1" fill="#f9fafb"/>
+
+  <text x="888" y="622" font-family="system-ui,sans-serif" font-size="12" font-weight="500" fill="#111827">Subscription renewal failed</text>
+  <rect x="1300" y="610" width="68" height="20" rx="10" fill="#dcfce7"/>
+  <text x="1334" y="624" font-family="system-ui,sans-serif" font-size="11" fill="#16a34a" text-anchor="middle">Resolved</text>
+  <text x="888" y="638" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Alice Johnson · 5h ago</text>
+  <rect x="866" y="646" width="550" height="1" fill="#f9fafb"/>
+
+  <text x="888" y="666" font-family="system-ui,sans-serif" font-size="12" font-weight="500" fill="#111827">SSO integration not working with Okta</text>
+  <rect x="1300" y="654" width="80" height="20" rx="10" fill="#fef3c7"/>
+  <text x="1340" y="668" font-family="system-ui,sans-serif" font-size="11" fill="#d97706" text-anchor="middle">In Progress</text>
+  <text x="888" y="682" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Bob Smith · 1d ago</text>
+  <rect x="866" y="690" width="550" height="1" fill="#f9fafb"/>
+
+  <text x="888" y="710" font-family="system-ui,sans-serif" font-size="12" font-weight="500" fill="#111827">Invoice shows incorrect discount</text>
+  <rect x="1300" y="698" width="68" height="20" rx="10" fill="#dcfce7"/>
+  <text x="1334" y="712" font-family="system-ui,sans-serif" font-size="11" fill="#16a34a" text-anchor="middle">Resolved</text>
+  <text x="888" y="726" font-family="system-ui,sans-serif" font-size="11" fill="#9ca3af">Carol Davis · 2d ago</text>
+</svg>

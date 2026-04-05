@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <rect width="1440" height="900" fill="#f9fafb"/>
+  <rect width="256" height="900" fill="#111827"/>
+  <rect x="24" y="24" width="28" height="28" rx="7" fill="#3b82f6"/>
+  <text x="62" y="43" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#ffffff">SupportAI</text>
+  <text x="44" y="114" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Dashboard</text>
+  <text x="44" y="154" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Analytics</text>
+  <text x="44" y="194" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Tickets</text>
+  <rect x="12" y="208" width="232" height="38" rx="8" fill="#2563eb"/>
+  <text x="44" y="232" font-family="system-ui,sans-serif" font-size="14" font-weight="500" fill="#ffffff">Knowledge Base</text>
+
+  <text x="284" y="60" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#111827">Knowledge Base</text>
+  <text x="284" y="82" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">18 articles · Browse solutions and guides</text>
+
+  <!-- Search box -->
+  <rect x="284" y="100" width="480" height="48" rx="12" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="312" y="130" font-family="system-ui,sans-serif" font-size="16" fill="#9ca3af">🔍</text>
+  <text x="340" y="130" font-family="system-ui,sans-serif" font-size="14" fill="#9ca3af">Search articles…</text>
+
+  <!-- Category filters -->
+  <rect x="284" y="164" width="42" height="30" rx="8" fill="#111827"/>
+  <text x="305" y="184" font-family="system-ui,sans-serif" font-size="13" font-weight="500" fill="#ffffff" text-anchor="middle">All</text>
+  <rect x="336" y="164" width="76" height="30" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="374" y="184" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Technical</text>
+  <rect x="422" y="164" width="58" height="30" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="451" y="184" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Billing</text>
+  <rect x="490" y="164" width="66" height="30" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="523" y="184" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Account</text>
+  <rect x="566" y="164" width="66" height="30" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="599" y="184" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">General</text>
+
+  <!-- Article cards grid (2 cols) -->
+  <!-- Row 1 -->
+  <rect x="284" y="212" width="556" height="140" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="306" y="244" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">API rate limits and how to handle them</text>
+  <rect x="756" y="232" width="64" height="20" rx="10" fill="#eff6ff"/>
+  <text x="788" y="246" font-family="system-ui,sans-serif" font-size="11" fill="#2563eb" text-anchor="middle">Technical</text>
+  <text x="306" y="264" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Our API enforces rate limits to ensure fair usage. Standard tier: 100</text>
+  <text x="306" y="282" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">requests/minute. Pro tier: 1,000 requests/minute. Enterprise: unlimited.</text>
+  <text x="306" y="300" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">When you hit a rate limit, you'll receive a 429 status code...</text>
+  <text x="306" y="336" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👁 23,410 views</text>
+  <text x="430" y="336" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👍 18,760 helpful</text>
+
+  <rect x="856" y="212" width="560" height="140" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="878" y="244" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Troubleshooting connection errors</text>
+  <rect x="1322" y="232" width="64" height="20" rx="10" fill="#eff6ff"/>
+  <text x="1354" y="246" font-family="system-ui,sans-serif" font-size="11" fill="#2563eb" text-anchor="middle">Technical</text>
+  <text x="878" y="264" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">If you're experiencing connection errors, first check our status page</text>
+  <text x="878" y="282" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">at status.supportai.dev. Common causes: 1) Firewall blocking port 443,</text>
+  <text x="878" y="300" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">2) Outdated TLS version (we require TLS 1.2+)...</text>
+  <text x="878" y="336" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👁 16,540 views</text>
+  <text x="1000" y="336" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👍 12,340 helpful</text>
+
+  <!-- Row 2 -->
+  <rect x="284" y="368" width="556" height="140" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="306" y="400" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">How to reset your password</text>
+  <rect x="728" y="388" width="68" height="20" rx="10" fill="#f0fdf4"/>
+  <text x="762" y="402" font-family="system-ui,sans-serif" font-size="11" fill="#16a34a" text-anchor="middle">Account</text>
+  <text x="306" y="420" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">To reset your password, navigate to the login page and click 'Forgot</text>
+  <text x="306" y="438" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Password'. Enter your email address and we'll send you a reset link</text>
+  <text x="306" y="456" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">within 5 minutes. Check your spam folder if you don't see it...</text>
+  <text x="306" y="492" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👁 12,400 views</text>
+  <text x="430" y="492" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👍 9,820 helpful</text>
+
+  <rect x="856" y="368" width="560" height="140" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="878" y="400" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">How to use the AI chatbot</text>
+  <rect x="1316" y="388" width="66" height="20" rx="10" fill="#fef3c7"/>
+  <text x="1349" y="402" font-family="system-ui,sans-serif" font-size="11" fill="#d97706" text-anchor="middle">General</text>
+  <text x="878" y="420" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">The AI assistant is available on every support ticket. It uses your</text>
+  <text x="878" y="438" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">knowledge base to provide instant answers before a human agent</text>
+  <text x="878" y="456" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">responds. You can ask the AI follow-up questions...</text>
+  <text x="878" y="492" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👁 11,230 views</text>
+  <text x="1000" y="492" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👍 9,870 helpful</text>
+
+  <!-- Row 3 -->
+  <rect x="284" y="524" width="556" height="140" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="306" y="556" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Understanding your invoice</text>
+  <rect x="728" y="544" width="58" height="20" rx="10" fill="#f0fdf4"/>
+  <text x="757" y="558" font-family="system-ui,sans-serif" font-size="11" fill="#16a34a" text-anchor="middle">Billing</text>
+  <text x="306" y="576" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Your monthly invoice includes all charges for the billing period.</text>
+  <text x="306" y="594" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">The invoice shows your base plan cost, any add-ons, usage-based</text>
+  <text x="306" y="612" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">charges, and applicable taxes...</text>
+  <text x="306" y="648" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👁 8,760 views</text>
+  <text x="430" y="648" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👍 6,540 helpful</text>
+
+  <rect x="856" y="524" width="560" height="140" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="878" y="556" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Setting up webhook integrations</text>
+  <rect x="1316" y="544" width="64" height="20" rx="10" fill="#eff6ff"/>
+  <text x="1348" y="558" font-family="system-ui,sans-serif" font-size="11" fill="#2563eb" text-anchor="middle">Technical</text>
+  <text x="878" y="576" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Webhooks allow you to receive real-time notifications when events</text>
+  <text x="878" y="594" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">occur in your account. Go to Settings &gt; Integrations &gt; Webhooks</text>
+  <text x="878" y="612" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">and click 'Add Endpoint'...</text>
+  <text x="878" y="648" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👁 9,870 views</text>
+  <text x="1000" y="648" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👍 7,650 helpful</text>
+
+  <!-- Row 4 -->
+  <rect x="284" y="680" width="556" height="100" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="306" y="712" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Two-factor authentication setup</text>
+  <rect x="728" y="700" width="68" height="20" rx="10" fill="#f0fdf4"/>
+  <text x="762" y="714" font-family="system-ui,sans-serif" font-size="11" fill="#16a34a" text-anchor="middle">Account</text>
+  <text x="306" y="734" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Enable 2FA from Account Settings &gt; Security &gt; Two-Factor Authentication.</text>
+  <text x="306" y="764" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👁 6,540 views  👍 5,430 helpful</text>
+
+  <rect x="856" y="680" width="560" height="100" rx="14" fill="#ffffff" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="878" y="712" font-family="system-ui,sans-serif" font-size="15" font-weight="600" fill="#111827">Integrating with Slack</text>
+  <rect x="1316" y="700" width="64" height="20" rx="10" fill="#eff6ff"/>
+  <text x="1348" y="714" font-family="system-ui,sans-serif" font-size="11" fill="#2563eb" text-anchor="middle">Technical</text>
+  <text x="878" y="734" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">Connect SupportAI to Slack to receive ticket notifications and reply...</text>
+  <text x="878" y="764" font-family="system-ui,sans-serif" font-size="12" fill="#9ca3af">👁 7,890 views  👍 6,540 helpful</text>
+</svg>
