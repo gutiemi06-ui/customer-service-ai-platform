@@ -268,3 +268,4 @@ model TicketAnalytics { id, ticketId, responseTime, resolutionTime, satisfaction
 Stevens Institute of Technology · Computer Science '28
 
 Built with Next.js 14, Prisma, Tailwind CSS, and Anthropic Claude AI.
+
